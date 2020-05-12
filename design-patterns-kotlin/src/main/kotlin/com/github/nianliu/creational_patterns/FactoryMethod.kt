@@ -32,5 +32,4 @@ class FactoryMethod {
             games.forEach { println(it) }
         }
     }
-
 }
