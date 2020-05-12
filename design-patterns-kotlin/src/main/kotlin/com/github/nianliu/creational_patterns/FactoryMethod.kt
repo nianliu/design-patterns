@@ -18,13 +18,19 @@ class GameFactory {
 
 }
 
-fun main() {
-    val gameFactory = GameFactory()
-    val games = arrayOf(
-        gameFactory.makeGame("Pokeman", "switch")
-        , gameFactory.makeGame("Assassin's Creed", "ps4")
-        , gameFactory.makeGame("FIFA 2020", "ps4")
-    )
+class FactoryMethod {
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            val gameFactory = GameFactory()
+            val games = arrayOf(
+                gameFactory.makeGame("Pokeman", "switch")
+                , gameFactory.makeGame("Assassin's Creed", "ps4")
+                , gameFactory.makeGame("FIFA 2020", "ps4")
+            )
 
-    games.forEach { println(it) }
+            games.forEach { println(it) }
+        }
+    }
+
 }
