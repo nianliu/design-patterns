@@ -22,6 +22,8 @@ Ensure a class only has one instance, and provide a global point of access to it
 #### Adapter
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 
+#### Bridge
+Decouple an abstraction from its implementation so that the two can vary independently.
 
 ## Behavioral Patterns
 
