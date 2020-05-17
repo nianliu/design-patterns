@@ -25,6 +25,9 @@ Convert the interface of a class into another interface clients expect. Adapter 
 #### Bridge
 Decouple an abstraction from its implementation so that the two can vary independently.
 
+#### Composite
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
 ## Behavioral Patterns
 
 
