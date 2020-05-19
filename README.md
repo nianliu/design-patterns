@@ -11,7 +11,7 @@ Separate the construction of a complex object from its representation so that th
 #### Factory Method
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 
-#### Prototype
+#### Prototype a.k.a Clone
 Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
 
 #### Singleton
