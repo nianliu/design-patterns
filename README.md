@@ -37,7 +37,17 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade define
 #### Flyweight a.k.a Cache
 Use sharing to support large numbers of fine-grained objects efficiently.
 
+#### Proxy
+Provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+
+
 ## Behavioral Patterns
+
+
+## Relationships
+#### Decorator vs Proxy
+* Decorator informs and empowers its client
+* Proxy restricts and disempowers its client
 
 
 ## Support Principles
