@@ -57,16 +57,16 @@ S.O.L.I.D. Principles of Object Oriented Class Design
 
 ### Single-responsibility principle
 A class should have one and only one reason to change, meaning that a class should have only one job.
-### Open-closed principle
+#### Open-closed principle
 A module should be open for extension but closed for modification.
 
-### Liskov substitution principle
+#### Liskov substitution principle
 Subclasses should be substitutable for their base classes.
 
-### Interface segregation principle
+#### Interface segregation principle
 A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
-### Dependency Inversion Principle
+#### Dependency Inversion Principle
 Depend upon Abstractions. Do not depend upon concretions.
 
 
