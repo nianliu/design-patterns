@@ -55,7 +55,7 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 ## Support Principles
 S.O.L.I.D. Principles of Object Oriented Class Design
 
-### Single-responsibility principle
+#### Single-responsibility principle
 A class should have one and only one reason to change, meaning that a class should have only one job.
 #### Open-closed principle
 A module should be open for extension but closed for modification.
