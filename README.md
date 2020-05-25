@@ -48,7 +48,8 @@ Avoid coupling the sender of a request to its receiver by giving more than one o
 #### Command
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 
-
+#### Iterator
+Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
 ## Relationships
 #### Decorator vs Proxy
