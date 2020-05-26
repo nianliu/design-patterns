@@ -56,6 +56,10 @@ Provide a way to access the elements of an aggregate object sequentially without
 * Decorator informs and empowers its client
 * Proxy restricts and disempowers its client
 
+#### Command vs Mediator vs Observer
+Command establishes unidirectional connections between senders and receivers.
+Mediator eliminates direct connections between senders and receivers, forcing them to communicate indirectly via a mediator object.
+Observer lets receivers dynamically subscribe to and unsubscribe from receiving requests.
 
 ## Support Principles
 S.O.L.I.D. Principles of Object Oriented Class Design
