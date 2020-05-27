@@ -51,6 +51,10 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 #### Iterator
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
+#### Mediator
+Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and
+it lets you vary their interaction independently.
+
 ## Relationships
 #### Decorator vs Proxy
 * Decorator informs and empowers its client
