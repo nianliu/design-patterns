@@ -90,4 +90,5 @@ Depend upon Abstractions. Do not depend upon concretions.
 * Design Patterns: Elements of Reusable Object-Oriented Software
 * Design Principles and Design Patterns
 * [RefactoringGuru](https://refactoring.guru/design-patterns)
+* [Baeldung](https://www.baeldung.com/tag/pattern)
 * [JournalDev](https://www.journaldev.com/java/design-patterns)
