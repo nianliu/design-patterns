@@ -58,6 +58,8 @@ it lets you vary their interaction independently.
 #### Memento
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
+#### Observer
+A subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
 #### Observer a.k.a publish-subscribe
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
