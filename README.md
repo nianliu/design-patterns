@@ -61,6 +61,9 @@ Without violating encapsulation, capture and externalize an object's internal st
 #### Observer
 A subscription mechanism to notify multiple objects about any events that happen to the object they’re observing.
 
+#### State
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+
 #### Observer a.k.a publish-subscribe
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
