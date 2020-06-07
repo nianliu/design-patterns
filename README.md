@@ -67,6 +67,11 @@ Allow an object to alter its behavior when its internal state changes. The objec
 #### Strategy
 Define a family of algorithms, encapsulate each one, and make them inter changeable. Strategy lets the algorithm vary independently from clients that use it.
 
+#### Template Method
+Define the skeleton of an algorithm in the superclass but let subclasses override specific steps of the algorithm without changing its structure.
+
+
+
 #### Observer a.k.a publish-subscribe
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
