@@ -70,7 +70,8 @@ Define a family of algorithms, encapsulate each one, and make them inter changea
 #### Template Method
 Define the skeleton of an algorithm in the superclass but let subclasses override specific steps of the algorithm without changing its structure.
 
-
+#### Visitor
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 
 #### Observer a.k.a publish-subscribe
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
